@@ -40,6 +40,7 @@ if(prediction_description!==''&& prediction_image_link!== '' && match_name!==''&
  && match_report!==''&& telegram_link!==''&&Instagram_link!=='' && facebook_link!=='' && Wicket_Keeper1!==''&& Batsman1!=''&&all_rounder_1!==''&& Baller1!==''
 && Wicket_Keeper2!=='' && Batsman2!==''&& all_rounder_2!==''&& Baller2!=='' && Team_1_playing!==''&& Team_2_playing!=='')
         {
+          
             console.log("test")
             axios.post("http://15.206.148.51:4000/test1",{allData})
         .then(data => data.respponse)
