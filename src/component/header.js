@@ -8,7 +8,8 @@ function Header() {
     <div>
       <div id="main-navbar" className="navbar">
         <div>
-        <h2 className="logo"><Link to='/'>Humsafar</Link></h2>
+        <link rel="icon" href="%PUBLIC_URL%/icon.jpg" />
+        <h2 className="logo"><Link to='/'>Humsafar Predictions</Link></h2>
         </div>
         <nav>
           <ul>
