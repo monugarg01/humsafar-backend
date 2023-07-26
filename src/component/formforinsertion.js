@@ -42,7 +42,7 @@ if(prediction_description!==''&& prediction_image_link!== '' && match_name!==''&
         {
           
             console.log("test")
-            axios.post("http://15.206.148.51:4000/test1",{allData})
+            axios.post("http://35.154.208.172:4000/test1",{allData})
         .then(data => data.respponse)
         .catch(error => console.log(error))   
     
