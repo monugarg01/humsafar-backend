@@ -41,7 +41,7 @@ if(prediction_description!==''&& prediction_image_link!== '' && match_name!==''&
 && Wicket_Keeper2!=='' && Batsman2!==''&& all_rounder_2!==''&& Baller2!=='' && Team_1_playing!==''&& Team_2_playing!=='')
         {
             console.log("test")
-            axios.post("http://3.110.222.16:4000/test1",{allData})
+            axios.post("https://3.110.222.16/test1",{allData})
         .then(data => data.respponse)
         .catch(error => console.log(error))   
     
