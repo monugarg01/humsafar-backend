@@ -56,6 +56,6 @@ pool.getConnection((err, connection) => {
 });
 
 
-app.listen(3000, () => {
-    console.log('MySchema SQL server listening on PORT 3000');
+app.listen(4000, () => {
+    console.log('MySchema SQL server listening on PORT 4000');
 });
