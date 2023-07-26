@@ -19,7 +19,7 @@ useEffect(()=>{
     getPostsData();
 })
 const getPostsData = () => {
-    axios.get("http://localhost:4000/test")
+    axios.get("http://3.110.222.16:4000/test")
     .then(data => setData(data.data))
     .catch(error => console.log(error));
     };  
