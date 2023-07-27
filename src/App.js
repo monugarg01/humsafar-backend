@@ -13,7 +13,7 @@ function App() {
     <Header/>
     <div className='header'>
       <div>
-      <div className='heading'>Humsafar</div>
+      <div className='heading'>Humsafar Predictions</div>
       </div>
       </div>
     <Routes>
