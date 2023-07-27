@@ -42,7 +42,7 @@ if(prediction_description!==''&& prediction_image_link!== '' && match_name!==''&
         {
           
             console.log("test")
-            axios.post("https://api.humsafarpredictions.in:4000/test1",{allData})
+            axios.post("https://api.humsafarpredictions.in/test1",{allData})
         .then(data => data.respponse)
         .catch(error => console.log(error))   
     
