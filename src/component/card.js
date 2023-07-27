@@ -19,7 +19,7 @@ useEffect(()=>{
     getPostsData();
 })
 const getPostsData = () => {
-    axios.get("https://http://api.humsafarpredictions.in:4000/test")
+    axios.get("https://api.humsafarpredictions.in:4000/test")
     .then(data => setData(data.data))
     .catch(error => console.log(error));
     };  
