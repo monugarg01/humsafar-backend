@@ -18,14 +18,8 @@ const [next, setNext] = useState(cardPerRow);
 useEffect(()=>{
     getPostsData();
 })
-const headers = {
-  'Content-Type': 'application/json;charset=UTF-8',
-};
 const getPostsData = () => {
-    axios.get("https://api.humsafarpredictions.in/test/",{
-      mode : 'cors',
-      headers: headers,
-    })
+    axios.get("https://api.humsafarpredictions.in/test/")
     .then(data => setData(data.data))
     .catch(error => console.log(error));
     };  
