@@ -38,7 +38,7 @@ const getPostsData = () => {
     <Card sx={{width:"450px",height:"420px ",margin:'20px'}}>
     <>
       <CardMedia
-        sx={{ height:auto,width:auto,borderRadius: "17px 17px 17px 17px",objectFit: "fill"}}
+        sx={{ height:250,width:450,borderRadius: "17px 17px 17px 17px",objectFit: "cover"}}
         image= {dataa.prediction_image_link}
       />
       <CardContent>
