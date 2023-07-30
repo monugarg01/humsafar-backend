@@ -17,7 +17,7 @@ let history = useNavigate()
 const [next, setNext] = useState(cardPerRow);
 useEffect(()=>{
     getPostsData();
-})
+},[])
 const getPostsData = () => {
     axios.get("https://api.humsafarprediction.in/getmactchs/")
     .then(data => setData(data.data))
