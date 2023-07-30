@@ -17,7 +17,7 @@ export default function DataCard() {
   const [next, setNext] = useState(cardPerRow);
   useEffect(()=>{
     getPostsData();
-  }, [])
+  })
 
 
   const getPostsData = () => {
