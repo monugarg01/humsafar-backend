@@ -11,7 +11,7 @@ import "./card.css";
 import { useNavigate } from 'react-router-dom'
 
 export default function DataCard() {
-const cardPerRow = 6;
+const cardPerRow = 9;
 const [data,setData] = useState([])
 let history = useNavigate()
 const [next, setNext] = useState(cardPerRow);
@@ -47,9 +47,6 @@ const getPostsData = () => {
         </Typography>
         <Button size="small" onClick={(data)=>navigateToNextPage(dataa)}>Read More</Button>
       </CardContent>
-      {/* <CardActions>
-        
-      </CardActions> */}
       </>
     </Card>
      ))}
