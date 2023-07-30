@@ -28,4 +28,13 @@
   .navbar .log {
     font-weight: 400;
   }
+
+  .image{
+    height: auto;
+   vertical-align: bottom;
+    width: 300px;
+  }
+  .telegramlink{
+     display: flex;
+  }
   
