@@ -13,12 +13,6 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <div className='telegramlink'>
-              <figure>
-                <a rel="noopener" target="_blank" className="telegram_hyperlink" href="https://t.me/+m0i4xltrEzQzZWI9">
-                <img src = {telegram} className='image'/></a>
-              </figure>
-            </div>
             <li>
             <Link to="about">About</Link>
             </li>
