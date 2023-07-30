@@ -8,7 +8,6 @@ function Header() {
     <div>
       <div id="main-navbar" className="navbar">
         <div>
-        <link rel="icon" href="%PUBLIC_URL%/icon.jpg" />
         <h2 className="logo"><Link to='/'>Humsafar Predictions</Link></h2>
         </div>
         <nav>
@@ -24,12 +23,9 @@ function Header() {
             </li>
           </ul>
         </nav>
-        
       </div>
-      
     </div>
-     
-     </>
+    </>
   );
 }
 export default Header;
